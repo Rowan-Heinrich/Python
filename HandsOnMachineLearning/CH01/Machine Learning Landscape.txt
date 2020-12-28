@@ -1,0 +1,39 @@
+What is Machine Learning:
+A computer program is said to learn from experience E with respect to some task T
+and some performance measure P, if its performance on T, as measured by P, improves
+with experience E.
+—Tom Mitchell, 1997
+
+
+Machine Learning is great for: 
+- problems with lots of hand tuning
+- complex problems for which there is no good solution. 
+- fluctuating enviornments and continuous new data. 
+- getting insights on complex data
+
+types of Machine Learning: 
+- trained with human supervision
+	- supervised learning (classification): training data includes the desired solution (labels & class). data is classified by program.
+	- supervised learning (regression): predicting the price of a car based on features (Predictors).
+	- supervised learning (logistic regression): used for classification as it outputs a probability of belonging to a class. 
+	- Unsupervised learning (unlabled data): system is given data without labels and system learns without a teacher.
+- can they learn on the fly
+- can they work by comparing new data points to known datapoints (or detect paterns). 
+
+note: attribute is a data type (milage), Feature is attribute + value (milage, 15,000kms)
+
+Supervised Learning Algorithms: 
+ - k-nearest neighbor
+ - linear regression
+ - logistic regression
+ - support vector machines (SVM's) 
+ - Decision Trees and Random Forests
+ - Neural Networks
+
+Unsupervised learning algorithms: 
+ - Clusering (k-means, Hierarchical Cluster Analysis (HCA), Expectation Maximisation).
+ - Visualisation & Dimensionality reduction (Principal component analysis (PCA), Kernal PCA, Locally-linear Embedding (LLE)
+t-distributed stochastic neighbor embedding (t-SNE)
+ - Association Rule Learning (Apriori,  Eclat). 
+
+Feature Extraction : dimentionallty reduction (combining features to form another (age and milage to form wear and tear).
